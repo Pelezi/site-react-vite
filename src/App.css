@@ -1,0 +1,54 @@
+body {
+  font-family: "Montserrat", "Arial";
+  color: #000C7A;
+}
+
+/* Curriculo tags */
+
+
+
+/* Bio classes */
+
+
+/*Responsividade*/
+
+
+
+
+
+
+/*Montserrat SemiBold*/
+@font-face {
+  font-family: Montserrat;
+  src: url(assets/Montserrat-SemiBold.ttf);
+  src: url(assets/Montserrat-SemiBold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Montserrat SemiBold italic*/
+@font-face {
+  font-family: Montserrat;
+  src: url(assets/Montserrat-SemiBoldItalic.ttf);
+  src: url(assets/Montserrat-SemiBoldItalic.ttf) format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/*Montserrat Bold*/
+@font-face {
+  font-family: Montserrat;
+  src: url(assets/Montserrat-Bold.ttf);
+  src: url(assets/Montserrat-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*Montserrat Bold Italic*/
+@font-face {
+  font-family: Montserrat;
+  src: url(assets/Montserrat-BoldItalic.ttf);
+  src: url(assets/Montserrat-BoldItalic.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}

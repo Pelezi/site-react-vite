@@ -1,0 +1,107 @@
+.info {
+    transition: 0.5s;
+    margin: 50px;
+    border-radius: 25px;
+    background-color: #EBEDFF;
+}
+
+.contact {
+    text-align: left;
+    width: 45%;
+    background-color: #1E2BA3;
+    padding: 20px;
+    border-radius: 25px 0px 0px 25px;
+    color: #EBEDFF;
+    display: inline-block;
+}
+
+.socialmedia {
+    transition: 0.5s;
+    width: 45%;
+    padding: 20px;
+    color: #000C7A;
+    display: inline-block;
+    background-color: #EBEDFF;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.socialmedia img {
+    width: 40px;
+}
+
+form fieldset {
+    border: 0px;
+}
+
+form fieldset label {
+    display: block;
+}
+
+form fieldset input {
+    width: 100%;
+}
+
+form fieldset input, textarea {
+    width: 100%;
+}
+
+form {
+    height: 100%;
+}
+
+input {
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.button {
+    border: 0;
+    background-color: #E8F7FF;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ceedfd;
+}
+
+.info .darkmode {
+    background-color: #131955;
+}
+
+.socialmedia.darkmode {
+    background-color: #131955;
+}
+
+.socialmedia.darkmode a {
+    color: #E8F7FF;
+}
+
+@media screen and (max-width: 1000px) {
+    .contact, .socialmedia {
+        width: 93%;
+        border-radius: 25px;
+        margin: 20px auto;
+    }
+
+    .info {
+        background-color: white;
+        margin: 0px;
+        padding: 15px;
+    }
+
+    .info.darkmode {
+        background-color: rgb(12, 0, 66);
+    }
+    
+}

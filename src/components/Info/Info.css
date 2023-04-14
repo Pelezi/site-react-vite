@@ -1,0 +1,42 @@
+body {
+    font-family: "Montserrat", "Arial";
+    color: #000C7A;
+}
+
+section {
+    transition: 0.5s;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #E8F7FF;
+    border-radius: 50px;
+    clear: both;
+    width: 40%;
+}
+
+.bio img {
+    height: 250px;
+    border-radius: 50%;
+    padding: 10px 20px 10px 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.bio {
+    padding: 50px;
+    background-color: #E8F7FF;
+    overflow: hidden;
+    text-align: center;
+}
+
+.realbio {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+    section {
+        width: auto;
+        margin: 25px;
+    }
+}

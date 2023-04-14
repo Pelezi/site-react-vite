@@ -1,0 +1,58 @@
+body {
+    font-family: "Montserrat", "Arial";
+    color: #000C7A;
+}
+
+header {
+background-color: #000C7A;
+color: #EBEDFF;
+}
+
+.imgLogo {
+height: 30px;
+}
+
+.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+font-size: 20;
+}
+
+.topnav li {
+float: left;
+}
+
+.topnav a:not(.logo){
+padding: 20px 32px;
+}
+
+.topnav a{
+display: block;
+float: left;
+color: #EBEDFF;
+text-align: center;
+text-decoration: none;
+}
+
+.topnav a:hover:not(.logo) {
+background-color: #000747;
+}
+
+.logo {
+padding: 0px;
+margin: 12px;
+}
+
+.active {
+background-color: #000747;
+}
+
+.right {
+float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .right, .topnav a, .topnav li {float: none;}
+  }

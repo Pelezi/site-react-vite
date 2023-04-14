@@ -1,0 +1,33 @@
+.item-portfolio {
+    transition: 0.5s;
+    border: 1px solid #E8F7FF;
+    margin: 25px;
+    display: inline-block;
+    background-color: #E8F7FF;
+    border-radius: 25px;
+    padding: 20px 15px 50px 15px;
+    width: 430px;
+    vertical-align: top;
+    width: 464px;
+    height: 608px;
+}
+
+.item-portfolio img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.item-portfolio a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #000C7A;
+}
+
+.item-portfolio img:hover {
+    opacity: 90%;
+}
+
+.item-portfolio small {
+    display:inline-block;
+    text-align: left;
+}

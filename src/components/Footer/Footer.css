@@ -1,0 +1,28 @@
+body {
+    font-family: "Montserrat", "Arial";
+    color: #000C7A;
+}
+
+footer {
+background-color: #000C7A;
+color: #EBEDFF;
+}
+
+footer {
+padding: 10px;
+text-align: center;
+}
+
+footer p {
+margin: 0px;
+}
+
+
+.footerRight {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .right {float: none;}
+    footer p {margin: 10px;}
+}
