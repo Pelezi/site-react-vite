@@ -1,5 +1,7 @@
 import React from "react";
 
+import Instagram from "../../assets/Instagram.png";
+
 import "./ItemPortfolio.css";
 
 function ItemPortfolio(props) {
