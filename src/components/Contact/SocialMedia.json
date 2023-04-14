@@ -1,7 +1,37 @@
 [
     {
-        "name": "",
-        "userName": "",
-        "image": ""
+        "name": "Instagram",
+        "userName": "@opelezi",
+        "link": "https://www.instagram.com/thepelezi/"
+    },
+    {
+        "name": "Linkedin",
+        "userName": "/alessandro-cardoso-500418163",
+        "link": "https://www.linkedin.com/in/alessandro-cardoso-500418163/"
+    },
+    {
+        "name": "Github",
+        "userName": "/Pelezi",
+        "link": "https://github.com/Pelezi"
+    },
+    {
+        "name": "Twitter",
+        "userName": "Thepelezi",
+        "link": "https://twitter.com/ThePelezi"
+    },
+    {
+        "name": "Steam",
+        "userName": "opelezi",
+        "link": "https://steamcommunity.com/id/Thepelezi/"
+    },
+    {
+        "name": "Discord",
+        "userName": "pelezi#9095",
+        "link": "#"
+    },
+    {
+        "name": "Genshin",
+        "userName": "Pelezi 619260893i",
+        "link": "#"
     }
 ]

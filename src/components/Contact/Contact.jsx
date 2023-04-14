@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import SocialMedia from "../SocialMedia/SocialMedia";
+
 import "./Contact.css";
 import socialMedia from "./SocialMedia.json";
 
@@ -101,65 +103,9 @@ function Contact() {
                                 key={index}
                                 name={item.name}
                                 userName={item.userName}
-                                image={item.image}
+                                link={item.link}
                             ></SocialMedia>
                         )}
-
-                        <div className="icons">
-                            <img src="src/assets/insta.png" alt="" />
-                            <a href="https://www.instagram.com/thepelezi/" target="_blank" className="at">
-                                <p>Instagram</p>
-                                <small>@thepelezi</small>
-                            </a>
-                        </div>
-
-                        <div className="icons">
-                            <img src="src/assets/Linkedin.png" alt="" />
-                            <a href="https://www.linkedin.com/in/alessandro-cardoso-500418163/" target="_blank" className="at">
-                                <p>Linkedin</p>
-                                <small>/alessandro-cardoso-500418163</small>
-                            </a>
-                        </div>
-
-                        <div className="icons">
-                            <img src="src/assets/Github.png" alt="" />
-                            <a href="https://github.com/Pelezi" target="_blank" className="at">
-                                <p>Github</p>
-                                <small>/Pelezi</small>
-                            </a>
-                        </div>
-
-                        <div className="icons">
-                            <img src="src/assets/Twitter.png" alt="" />
-                            <a href="https://twitter.com/ThePelezi" target="_blank" className="at">
-                                <p>Twitter</p>
-                                <small>@ThePelezi</small>
-                            </a>
-                        </div>
-
-                        <div className="icons">
-                            <img src="src/assets/Steam.png" alt="" />
-                            <a href="https://steamcommunity.com/id/Thepelezi/" target="_blank" className="at">
-                                <p>Steam</p>
-                                <small>Thepelezi</small>
-                            </a>
-                        </div>
-
-                        <div className="icons">
-                            <img src="src/assets/Discord.png" alt="" />
-                            <a href="#" className="at">
-                                <p>Discord</p>
-                                <small>pelezi#9095</small>
-                            </a>
-                        </div>
-
-                        <div className="icons">
-                            <img src="src/assets/Genshin.png" alt="" />
-                            <a href="#" className="at">
-                                <p>Genshin</p>
-                                <small>Pelezi 619260893i</small>
-                            </a>
-                        </div>
                         
                     </div>
             </div>
