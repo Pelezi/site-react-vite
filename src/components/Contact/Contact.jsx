@@ -104,6 +104,7 @@ function Contact() {
                                 name={item.name}
                                 userName={item.userName}
                                 link={item.link}
+                                image={item.image}
                             ></SocialMedia>
                         )}
                         
