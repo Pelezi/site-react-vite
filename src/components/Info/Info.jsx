@@ -1,28 +1,23 @@
 import React from "react";
 
 import "./Info.css"
+import data from "./Info.json";
 
-function Info(props) {
-
-    const { resumo, experienciaAcademica, experienciaProfissional } = props.curriculo;
-
-    if(!resumo || !experienciaAcademica || !experienciaProfissional) {
-        return <p>Carregando...</p>
-    }
+function Info() {
 
     return (
         <>
             <section>
                 <h1>Sobre mim</h1>
-                <p> {resumo} </p>
+                <p> {data.about} </p>
             </section>
 
             <section>
                 <h1>Acadêmico</h1>
                 <ul>
-                    {experienciaAcademica.map((item, index) => (
+                    {data.academico.map((item, index) => (
                         <li key={index}>
-                            <b> ({item.anoInicio} - {item.anoFim}) </b> {item.titulo};
+                            <b> ({item.dataInicio} - {item.dataFim}) </b> {item.titulo};
                         </li>
                     ))}
                     <p> <small>É meio complicado...</small> </p>
@@ -33,9 +28,9 @@ function Info(props) {
             <section>
                 <h1>Profissional</h1>
                 <ul>
-                    {experienciaProfissional.map((item, index) => (
+                    {data.profissional.map((item, index) => (
                         <li key={index}>
-                            <b> ({item.anoInicio} - {item.anoFim}) </b> {item.titulo};
+                            <b> ({item.dataInicio} - {item.dataFim}) </b> {item.titulo};
                         </li>
                     ))}
                 </ul>

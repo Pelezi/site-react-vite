@@ -1,17 +1,15 @@
 import React from "react";
+import avatar from "../../assets/Alex.jpg"
 
-import "./Bio.css";
-
-function Bio(props) {
-
-    const { nome, cargo, foto } = props.informacoes;
-
+function Bio() {
     return (
         <div className="bio">
-            <img src={foto} alt="A picture of me" />
+            <img src={avatar} alt="A picture of me" />
             <div className="realbio">
-                <h1 id="nome-perfil">{nome}</h1>
-                <h3 id="eventoSubtitulo">{cargo}</h3>
+                <h1>Alessandro Cardoso</h1>
+                <h3>Nerd profissioal</h3>
+                <h3>Desenvolvedor de software nas horas vagas</h3>
+                <h3>especialista em viagem no tempo</h3>
             </div>
         </div>
     )

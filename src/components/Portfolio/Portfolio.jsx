@@ -3,8 +3,9 @@ import React from "react";
 import ItemPortfolio from "../ItemPortfolio/ItemPortfolio";
 
 import "./Portfolio.css";
+import portfolio from "./Portfolio.json"
 
-function Portfolio({ portfolio }) {
+function Portfolio() {
 
     return (
         <main>
