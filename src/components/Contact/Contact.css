@@ -2,12 +2,14 @@
     transition: 0.5s;
     margin: 50px;
     border-radius: 25px;
+    border: none;
     background-color: #EBEDFF;
+    text-align: left;
 }
 
 .contact {
     text-align: left;
-    width: 45%;
+    width: 50%;
     background-color: #1E2BA3;
     padding: 20px;
     border-radius: 25px 0px 0px 25px;
@@ -17,12 +19,16 @@
 
 .socialmedia {
     transition: 0.5s;
-    width: 45%;
+    width: 40%;
     padding: 20px;
     color: #000C7A;
     display: inline-block;
     background-color: #EBEDFF;
     border-radius: 0px 25px 25px 0px;
+}
+
+h3 {
+    text-align: center;
 }
 
 .socialmedia img {
