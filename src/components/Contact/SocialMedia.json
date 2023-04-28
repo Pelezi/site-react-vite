@@ -1,43 +1,36 @@
 [
     {
         "name": "Instagram",
-        "image": "https://i.imgur.com/eabx72O.png",
         "userName": "@opelezi",
         "link": "https://www.instagram.com/thepelezi/"
     },
     {
         "name": "Linkedin",
-        "image": "https://i.imgur.com/d4l2c30.png",
         "userName": "/alessandro-cardoso-500418163",
         "link": "https://www.linkedin.com/in/alessandro-cardoso-500418163/"
     },
     {
         "name": "Github",
-        "image": "https://i.imgur.com/57uuR09.png",
         "userName": "/Pelezi",
         "link": "https://github.com/Pelezi"
     },
     {
         "name": "Twitter",
-        "image": "https://i.imgur.com/0krIhR9.png",
         "userName": "Thepelezi",
         "link": "https://twitter.com/ThePelezi"
     },
     {
         "name": "Steam",
-        "image": "https://i.imgur.com/OOp3NFZ.png",
         "userName": "opelezi",
         "link": "https://steamcommunity.com/id/Thepelezi/"
     },
     {
         "name": "Discord",
-        "image": "https://i.imgur.com/VgKBKH2.png",
         "userName": "pelezi#9095",
         "link": "#"
     },
     {
         "name": "Genshin",
-        "image": "https://i.imgur.com/1cs0bA2.png",
         "userName": "Pelezi 619260893i",
         "link": "#"
     }
