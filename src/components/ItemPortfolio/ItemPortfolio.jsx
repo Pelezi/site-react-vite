@@ -1,14 +1,12 @@
 import React from "react";
 
-import TARDIS from "../../assets/Giant TARDIS.png";
-
 import "./ItemPortfolio.css";
 
 function ItemPortfolio(props) {
     return(
         <div className="item-portfolio">
             <a href={props.link} target="_blank" >
-                <img src={props.image} alt="A Giant TARDIS built in minecraft" />
+                <img src={props.image} alt={props.title} />
                 <p>{props.title}</p>
                 <small>{props.description}</small>
             </a>
