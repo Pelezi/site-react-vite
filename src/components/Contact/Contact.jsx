@@ -70,7 +70,7 @@ function Contact() {
                                     name="input-tel" 
                                     id="input-tel" 
                                     placeholder="(xx) xxxxx-xxxx" 
-                                    required pattern="^\(\d{2}\) \d{5}-\d{4}$" 
+                                    // required pattern="^\(\d{2}\) \d{5}-\d{4}$" 
                                     maxLength="15" 
                                     value={phone}
                                     onChange={(event) => setPhone(event.target.value)}
