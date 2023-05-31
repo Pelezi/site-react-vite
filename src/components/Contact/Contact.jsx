@@ -5,6 +5,8 @@ import SocialMedia from "../SocialMedia/SocialMedia";
 import "./Contact.css";
 import socialMedia from "./SocialMedia.json";
 
+const numeroWhatsapp = import.meta.env.VITE_WHATSAPP_NUMBER;
+
 function Contact() {
 
     const [nome, setNome] = useState("");
@@ -17,8 +19,6 @@ function Contact() {
         console.log("Never gonna give you up");
         
         const texto = `Nome: ${nome}\nE-mail: ${email}\nTelefone: ${phone}\nMensagem: ${message}`;
-
-        const numeroWhatsapp = import.meta.env.VITE_WHATSAPP_NUMBER;
 
         const linkWhatsapp = `https://api.whatsapp.com/send/?phone=${numeroWhatsapp}&text=${encodeURIComponent(texto)}`;
 
