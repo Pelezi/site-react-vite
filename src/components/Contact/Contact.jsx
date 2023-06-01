@@ -18,7 +18,8 @@ function Contact() {
         
         const texto = `Nome: ${nome}\nE-mail: ${email}\nTelefone: ${phone}\nMensagem: ${message}`;
 
-        const numeroWhatsapp = import.meta.env.VITE_WHATSAPP_NUMBER;
+        // const numeroWhatsapp = import.meta.env.VITE_WHATSAPP_NUMBER;
+        const numeroWhatsapp = 5581998625899;
         
         const linkWhatsapp = `https://api.whatsapp.com/send/?phone=${numeroWhatsapp}&text=${encodeURIComponent(texto)}`;
 
